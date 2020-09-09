@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practical-12</title>
+    <link rel = "icon" href =   "../images/title-logo.png" type = "image/x-icon">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background: rgb(240, 230, 230);
+        min-width: 100%;
+      }
+      .container {
+        background: rgb(255, 252, 247);
+        width: 80%;
+        margin: 20px auto;
+        border-radius: 10px;
+        border: 0.3px solid rgb(65, 65, 65);
+      }
+      .main-table {
+        width: 100%;
+        padding: 10px;
+      }
+      .main-table tr td {
+        padding: 5px;
+        text-align: center;
+        font-size: 20px;
+        border-right:2px solid white;
+        border-left:2px solid white;
+      }
+      .main-table tr td i {
+        padding: 10px;
+        text-align: center;
+        font-size: 30px;
+      }
+      i {
+        margin-right: 10px;
+      }
+      .container h2 {
+        text-align: center;
+        font-size: 40px;
+        margin-bottom: 20px;
+        color: rgb(238, 163, 248);
+      }
+      .star {
+        background: white;
+      }
+      .diamond {
+        background: rgb(243, 254, 255);
+      }
+      .standard {
+        background: rgb(252, 180, 180, 0.5);
+      }
+      .deluxe {
+        background: rgb(250, 241, 159, 0.5);
+      }
+      table tr:first-child() {
+        font-size: 25px;
+      }
+      a {
+        text-decoration: none;
+        background: rgb(255, 116, 116);
+        padding: 10px;
+        border-radius: 10px;
+        vertical-align: middle;
+        color:white;
+        font-size: 20px;
+
+      }
+      a:hover{
+          background: rgb(236, 185, 185);
+      }
+      tbody tr:nth-child(odd){
+          background: rgb(247, 247, 247);
+      }
+      tfoot tr:nth-child(odd){
+          background: rgb(255, 252, 247);
+      }
+      tfoot tr{
+          line-height:70px;
+      }
+      @media (max-width:710px){
+        .main-table{
+          padding:0px;
+        }
+        .main-table tr td i {
+        padding:5px;
+        text-align: center;
+        font-size: 20px;
+      }
+      a {
+        text-decoration: none;
+        background: rgb(255, 116, 116);
+        padding: 10px;
+        border-radius: 10px;
+        vertical-align: middle;
+        color:white;
+        font-size: 10px;
+
+      }
+      .main-table tr td {
+        text-align: center;
+        font-size: 10px;
+        border-right:1px solid white;
+        border-left:1px solid white;
+      }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Select Your Plan and Enjoy!</h2>
+      <table class="main-table">
+        <colgroup class="star"></colgroup>
+        <colgroup class="diamond"></colgroup>
+        <colgroup class="standard"></colgroup>
+        <colgroup class="deluxe"></colgroup>
+        <thead>
+          <tr>
+            <td>
+              <i class="fa fa-star"> Star</i>
+            </td>
+            <td>
+              <i class="fa fa-diamond"> Diamond</i>
+            </td>
+            <td>
+              <i class="fa fa-car"> Standard</i>
+            </td>
+            <td>
+              <i class="fa fa-plane"> Deluxe</i>
+            </td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Rs 500/-</td>
+            <td>Rs 1500/-</td>
+            <td>Rs 2500/-</td>
+            <td>Rs 3500/-</td>
+          </tr>
+          <tr>
+            <td>50 pages</td>
+            <td>75 pages</td>
+            <td>unlimited</td>
+            <td>unlimited</td>
+          </tr>
+          <tr>
+            <td>10 users</td>
+            <td>20 users</td>
+            <td>50 users</td>
+            <td>unlimited</td>
+          </tr>
+          <tr>
+            <td>10 sites</td>
+            <td>20 sites</td>
+            <td>50 sites</td>
+            <td>unlimited</td>
+          </tr>
+          <tr>
+            <td>50 MB</td>
+            <td>200 MB</td>
+            <td>1 GB</td>
+            <td>5 GB</td>
+          </tr>
+          <tr>
+            <td>included</td>
+            <td>included</td>
+            <td>included</td>
+            <td>included</td>
+          </tr>
+          <tr>
+            <td>
+              <i class="fa fa-check" aria-hidden="true"></i>
+            </td>
+            <td>
+              <i class="fa fa-check" aria-hidden="true"></i>
+            </td>
+            <td>
+              <i class="fa fa-check" aria-hidden="true"></i>
+            </td>
+            <td>
+              <i class="fa fa-check" aria-hidden="true"></i>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <i class="fa fa-times"></i>
+            </td>
+            <td>
+              <i class="fa fa-check" aria-hidden="true"></i>
+            </td>
+            <td>
+              <i class="fa fa-check" aria-hidden="true"></i>
+            </td>
+            <td>
+              <i class="fa fa-check" aria-hidden="true"></i>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <i class="fa fa-times"></i>
+            </td>
+            <td>
+              <i class="fa fa-times"></i>
+            </td>
+            <td>
+              <i class="fa fa-check" aria-hidden="true"></i>
+            </td>
+            <td>
+              <i class="fa fa-check" aria-hidden="true"></i>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <i class="fa fa-times"></i>
+            </td>
+            <td>
+              <i class="fa fa-times"></i>
+            </td>
+            <td>
+              <i class="fa fa-times"></i>
+            </td>
+            <td>
+              <i class="fa fa-check" aria-hidden="true"></i>
+            </td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td>
+              <a href="">Sign up</a>
+            </td>
+            <td>
+              <a href="">Sign up</a>
+            </td>
+            <td>
+              <a href="">Sign up</a>
+            </td>
+            <td>
+              <a href="">Sign up</a>
+            </td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+  </body>
+</html>
