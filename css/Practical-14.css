@@ -1,0 +1,303 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    background:linear-gradient(90deg, rgb(246, 247, 224) 0%, rgba(241, 190, 169, 0.88) 0%, rgb(245, 222, 222) 97%);
+}
+.container{
+    display: flex;
+    padding:10px;
+    justify-content: space-around;
+    margin-top:70px;
+}
+h1{
+    text-align: center;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:20px;
+    font-variant: small-caps;
+    font-size: 50px;
+    color:rgba(255, 245, 245, 0.979);
+    text-shadow: silver 1px;
+}
+.template-1{
+    width:30%;
+    border-radius:5px;
+    box-shadow: 1px 1px 1px 1px grey;
+    background: rgba(238, 233, 222,0.5);
+}
+.template-1 .header-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgb(247, 24, 255) 0%, rgba(77, 228, 208, 0.88) 0%, rgb(243, 83, 208) 97%);
+    padding: 10px;
+    /* border-radius:10px ; */
+}
+.template-1 .header-1 h2{
+    margin:20px;
+    font-size: 40px;
+    color:white;
+}
+.template-1 .header-1 .icons{
+    margin:10px;
+    color:rgb(224, 221, 221);
+    font-size: 30px;
+}
+.template-1 .header-1 .icons i{
+    margin:5px;
+}
+.template-1 .input-section-1{
+    padding:10px;
+    padding-top: 10px;
+    padding-bottom:10px;
+
+}
+.template-1 .input-section-1 div{
+    color:grey;
+    margin-bottom:10px;
+}
+.template-1 .input-section-1 input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: transparent;
+    width:100%;
+    font-size: 30px;
+}
+.template-1 .input-section-1 .forgot{
+    text-align: right;
+}
+.template-1 .button-section-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+.template-1 .button-section-1 input{
+    background:orange;
+    color:white;
+    padding:10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    margin:10px;
+    border:none;
+    font-size: 20px;
+}
+.template-1 .button-section-1 label{
+    color:grey
+}
+.template-1 .button-section-1 label a{
+    text-decoration: none;
+    color: black;
+}
+.template-2{
+    width:30%;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px grey;
+    background-color: ghostwhite;
+}
+.template-2 .header-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.template-2 .header-1 h2{
+    margin:20px;
+    font-size: 40px;
+    color:rgb(250, 16, 172);
+}
+.template-2 .input-section-1{
+    padding:10px;
+    padding-top: 10px;
+    padding-bottom:10px;
+
+}
+.template-2 .input-section-1 div{
+    color:grey;
+    margin-bottom:10px;
+ }
+ .template-2 .input-section-1 .input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: transparent;
+    width:100%;
+    font-size: 30px;
+}
+.template-2 .input-section-1 .forgot{
+    display:block;
+}
+.template-2 .input-section-1 .forgot input{
+    margin:0px;
+    padding:0px;
+}
+.template-2 .button-section-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+.template-2 .button-section-1 input{
+    background:rgb(255, 0, 234);
+    color:white;
+    padding:10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    margin:10px;
+    border:none;
+    font-size: 20px;
+}
+.template-2 .button-section-1 label{
+    color:grey
+}
+.template-2 .button-section-1 label a{
+    text-decoration: none;
+    color: black;
+}
+.template-2 .icons{
+    background: #000;
+    color:rgba(255, 245, 245, 0.979);
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding:30px;
+}
+.template-2 .icons i{
+    margin:10px;
+}
+.template-3{
+    width:30%;
+    border-radius:5px;
+    box-shadow:1px 1px 1px 1px grey;
+    background-color: honeydew;
+}
+.template-3 .header-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.template-3 .header-1 h2{
+    margin:20px;
+    font-size: 40px;
+    color:rgb(16, 203, 250);
+}
+.template-3 .input-section-1{
+    padding:10px;
+    padding-top: 10px;
+    padding-bottom:10px;
+
+}
+.template-3 .input-section-1 div{
+    color:grey;
+    margin-bottom:10px;
+}
+.template-3 .input-section-1 label{
+    color: rgb(0, 183, 255);
+}
+.template-3 .input-section-1 input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: transparent;
+    width:100%;
+    font-size: 30px;
+   
+}
+.template-3 .input-section-1 .forgot{
+    text-align: right;
+}
+.template-3 .button-section-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; 
+}
+.template-3 .button-section-1 input{
+    background:rgb(0, 238, 255);
+    color:white;
+    padding:10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    margin:10px;
+    border:none;
+    font-size: 20px;
+}
+.template-3 .button-section-1 label{
+    color:grey
+}
+.template-3 .button-section-1 label a{
+    text-decoration: none;
+    color: black;
+}
+.template-3 .icons{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding:20px;
+    color:rgb(43, 252, 252) 
+}
+.template-3 .icons i{
+    margin:10px;
+    box-shadow: 2px 2px 2px 2px grey;
+    border-radius: 20px;
+    padding-right:20px;
+    padding-left:20px;
+}
+
+@media (max-width:850px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        padding:10px;
+        justify-content: center;
+        align-items: center;
+        margin-top:100px;
+    }
+    .template-1{
+        width:80%;
+        margin:30px;
+        border-radius:5px;
+        box-shadow: 1px 1px 1px 1px grey;
+        background: rgba(238, 233, 222,0.5);
+    }
+    .template-3{
+        width:80%;
+        margin:30px;
+        border-radius:5px;
+        box-shadow:1px 1px 1px 1px grey;
+        background-color: honeydew;
+    }
+    .template-2{
+        width:80%;
+        margin:30px;
+        border-radius: 5px;
+        box-shadow: 1px 1px 1px 1px grey;
+        background-color: ghostwhite;
+    }
+}
+
+.template-1 .button-section-1 input:hover{
+    background-color:rgb(229, 238, 66);
+    transition: 0.5s;
+}
+.template-2 .button-section-1 input:hover{
+    background-color:rgb(240, 11, 61);
+    transition: 0.5s;
+}
+.template-3 .button-section-1 input:hover{
+    background-color:rgb(48, 61, 247);
+    transition: 0.5s;
+}
+i:hover{
+    color:pink;
+    transition: 0.5s;
+}
