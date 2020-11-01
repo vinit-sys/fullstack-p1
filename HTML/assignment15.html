@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practical-15</title>
+    <link rel="stylesheet" href="../css/Practical-15.css" />
+  </head>
+  <body>
+    <div class="container">
+      <button id="decre-btn" class="btn" onclick="decre()">-</button>
+      <div class="counter" id="count">0</div>
+      <button id="incre-btn" class="btn" onclick="incre()">+</button>
+    </div>
+    <script>
+      var count = 0;
+      document.getElementById("decre-btn").disabled = true;
+      document.getElementById("decre-btn").style.backgroundColor =
+        "rgb(8, 8, 8,0.5)";
+      function incre() {
+        document.getElementById("decre-btn").disabled = false;
+        document.getElementById("decre-btn").style.backgroundColor =
+          "rgb(8, 8, 8,0.8)";
+        count++;
+        document.getElementById("count").innerHTML = count;
+      }
+      function decre() {
+        if (count === 0) {
+          document.getElementById("decre-btn").disabled = true;
+          document.getElementById("decre-btn").style.backgroundColor =
+            "rgb(8, 8, 8,0.5)";
+        } else {
+          count--;
+          document.getElementById("count").innerHTML = count;
+        }
+        if (count === 0) {
+          document.getElementById("decre-btn").disabled = true;
+          document.getElementById("decre-btn").style.backgroundColor =
+            "rgb(8, 8, 8,0.5)";
+        }
+      }
+    </script>
+  </body>
+</html>
+s

@@ -1,0 +1,29 @@
+body{
+    background-color: rosybrown;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.btn{
+    font-size: 50px;
+    padding-right:40px;
+    padding-left:40px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    color: blanchedalmond;
+    background-color: rgb(8, 8, 8,0.8);
+    border-radius: 10px;
+}
+.counter{
+    font-size: 70px;
+    margin: 20px;
+    background-color: blanchedalmond;
+    padding-right:40px;
+    padding-left:40px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
