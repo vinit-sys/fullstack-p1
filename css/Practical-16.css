@@ -1,0 +1,84 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(171, 115, 224);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+ h1{
+    font-size: 50px;
+    margin: 20px;
+    text-align: center;
+    color: bisque;
+}
+#input{
+    outline: none;
+    height: 5vh;
+    margin: 0px;
+    font-size: 15px;
+    color: white;
+    background-color: black;
+}
+.todos{
+    /* border:1px solid black; */
+    width: 25%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.add-btn{
+    height:5vh;
+    padding: 10px;
+    margin-left:0;
+    background-color: aqua; 
+    outline: none;
+    color: azure;
+    border-radius: 5px;
+}
+
+.todo {
+    width:80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius:5px;
+    margin-top:5px;
+    background-color: black;
+}
+.todo li{
+    list-style: none;
+    font-size: 35px;
+    flex: 1;
+    color:white;
+    margin-left: 10px;
+}
+.todo .check-btn{
+    padding:5px;
+    color:green;
+    background-color: greenyellow;
+    outline: none;
+    border-radius: 5px;
+}
+.todo .delete-btn{
+    padding:5px;
+    margin-right: 10px;
+    color: red;
+    background-color: salmon;
+    outline: none;
+}
+i{
+    pointer-events: none;
+}
+.check{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
