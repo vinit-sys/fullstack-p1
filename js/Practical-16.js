@@ -29,6 +29,6 @@ function createTodo(e) {
     input.value = "";
   }
   else{
-    alert('Enter Value first')
+    alert('Enter Value first!')
   }
 };
